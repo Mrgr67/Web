@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Chat Kelas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>💬 Chat Kelas</h1>
+<a href="index.html" class="link">⬅ Kembali</a>
+
+<section id="loginChat">
+    <input id="chatName" placeholder="Nama kamu">
+    <button onclick="loginChat()">Masuk Chat</button>
+</section>
+
+<section id="chatBoxArea" class="hidden">
+    <p>User: <b id="chatUser"></b></p>
+
+    <div id="chatBox"></div>
+
+    <input id="chatInput" placeholder="Tulis pesan...">
+    <button onclick="kirimPesan()">Kirim</button>
+
+    <br><br>
+    <button onclick="logoutChat()">Keluar</button>
+</section>
+
+<script src="chat.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin XII IPS 2</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🛠️ Admin Kelas</h1>
+<input type="password" id="pass" placeholder="Password">
+<button onclick="login()">Login</button>
+<a href="admin-chat.html" class="link">💬 Chat</a>
+
+<div id="panel" class="hidden">
+<input id="nama" placeholder="Nama">
+<input id="nilai" type="number" placeholder="Nilai">
+<input type="file" id="foto">
+<button onclick="tambah()">Tambah</button>
+
+<table>
+<tr><th>Nama</th><th>Nilai</th><th>Aksi</th></tr>
+<tbody id="data"></tbody>
+</table>
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>

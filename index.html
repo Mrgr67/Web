@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Kelas XII IPS 2</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🚀 Kelas XII IPS 2</h1>
+    <p>Sistem Informasi Siswa</p>
+    <a href="chat.html" class="link">💬 Chat Admin</a>
+</header>
+
+<section class="card">
+    <h2>📚 Kelas</h2>
+    <b>XII IPS 2</b>
+</section>
+
+<section class="card">
+    <h2>📋 Struktur Kelas</h2>
+    <ul id="strukturList"></ul>
+</section>
+
+<section class="card">
+    <h2>🏆 Top Siswa</h2>
+    <ol id="topSiswa"></ol>
+</section>
+
+<section class="card">
+    <h2>📊 Daftar Siswa</h2>
+    <table>
+        <thead>
+            <tr><th>No</th><th>Nama</th><th>Nilai</th></tr>
+        </thead>
+        <tbody id="tabelSiswa"></tbody>
+    </table>
+</section>
+
+<section class="card">
+    <h2>🖼️ Galeri Siswa</h2>
+    <div class="slider">
+        <button onclick="geser(-1)">⬅</button>
+        <div class="frame">
+            <img id="fotoSlide">
+            <p id="namaFoto"></p>
+        </div>
+        <button onclick="geser(1)">➡</button>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
